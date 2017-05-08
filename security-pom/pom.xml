@@ -8,10 +8,19 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>./../parent-pom/pom.xml</relativePath>
   </parent>
-  
+
   <artifactId>security-pom</artifactId>
   <packaging>jar</packaging>
 
   <name>Security pom</name>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
+
+  </dependencies>
 
 </project>

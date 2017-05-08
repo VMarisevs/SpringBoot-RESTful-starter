@@ -32,6 +32,12 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- internal dependencies -->
+    <dependency>
+      <groupId>com.dublin</groupId>
+      <artifactId>security-pom</artifactId>
+    </dependency>
+
   </dependencies>
 
 </project>

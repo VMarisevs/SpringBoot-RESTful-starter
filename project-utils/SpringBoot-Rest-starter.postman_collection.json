@@ -8,11 +8,45 @@
 	},
 	"item": [
 		{
-			"name": "localhost:8080/greeting",
+			"name": "unauthorized request",
 			"request": {
 				"url": "localhost:8080/greeting",
 				"method": "GET",
 				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "user request",
+			"request": {
+				"url": "localhost:8080/greeting",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic dXNlcjpwYXNzd29yZA==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "admin request",
+			"request": {
+				"url": "localhost:8080/greeting",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic dXNlcjpwYXNzd29yZA==",
+						"description": ""
+					}
+				],
 				"body": {},
 				"description": ""
 			},
