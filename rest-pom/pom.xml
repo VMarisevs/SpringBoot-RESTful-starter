@@ -14,10 +14,9 @@
 
   <name>Rest pom</name>
 
-
   <dependencies>
 
-    <!-- initial dependency -->
+    <!-- initial spring rest dependencies -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>

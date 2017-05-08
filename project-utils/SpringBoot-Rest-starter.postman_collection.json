@@ -1,0 +1,22 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SpringBoot-Rest-starter",
+		"_postman_id": "99e74143-1692-d286-6a59-d553b08c009e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/greeting",
+			"request": {
+				"url": "localhost:8080/greeting",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
