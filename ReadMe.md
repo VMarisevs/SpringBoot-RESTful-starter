@@ -7,6 +7,7 @@
 ## Examples
 
  * [Controller examples](http://spring.io/guides/tutorials/bookmarks/)
+ * [Custom security configuration](http://www.baeldung.com/spring-security-create-new-custom-security-expression) with custom permission evaluator
 
 #### Java version setup
 
