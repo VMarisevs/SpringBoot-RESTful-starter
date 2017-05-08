@@ -6,19 +6,12 @@
     <groupId>com.dublin</groupId>
     <artifactId>parent-pom</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>./parent-pom/pom.xml</relativePath>
+    <relativePath>./../parent-pom/pom.xml</relativePath>
   </parent>
   
-  <artifactId>build-pom</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>security-pom</artifactId>
+  <packaging>jar</packaging>
 
-  <name>build-pom</name>
+  <name>Security pom</name>
 
-  <modules>
-    <module>parent-pom</module>
-    <module>rest-pom</module>
-    <module>service-pom</module>
-    <module>security-pom</module>
-  </modules>
-  
 </project>
