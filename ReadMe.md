@@ -8,6 +8,7 @@
 
  * [Controller examples](http://spring.io/guides/tutorials/bookmarks/)
  * [Custom security configuration](http://www.baeldung.com/spring-security-create-new-custom-security-expression) with custom permission evaluator
+ * [Custom annotation for security](http://blog.novoj.net/2012/03/27/combining-custom-annotations-for-securing-methods-with-spring-security/) Note that You can’t mix multiple annotations together – Spring will find only the first applicable annotation and uses this one.
 
 #### Java version setup
 

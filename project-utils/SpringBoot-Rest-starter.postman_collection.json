@@ -43,7 +43,41 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Basic dXNlcjpwYXNzd29yZA==",
+						"value": "Basic YWRtaW46cGFzc3dvcmQ=",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "admin request with bad role",
+			"request": {
+				"url": "localhost:8080/greeting/role",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46cGFzc3dvcmQ=",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "admin request with special_role",
+			"request": {
+				"url": "localhost:8080/greeting/special_role",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46cGFzc3dvcmQ=",
 						"description": ""
 					}
 				],
